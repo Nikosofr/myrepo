@@ -9,14 +9,7 @@ sudo pacman -S firefox waybar wayland kitty base-devel wget curl nano nvim fastf
 
 sudo pacman -S sddm 
 
-sudo systemctl enable sddm 
-
-firefox --vesion
-waybar --vesion
-wayland --vesion
-kitty --vesion
-base-devel --vesion
-fastfetch --vesion
+sudo systemctl enable sddm
 
 echo "==================================================="
 echo "                   yay install                     "
@@ -50,15 +43,6 @@ chmod +x Cursor-2.1.40-x86.64.AppImage
 
 yay -S go python cython rust postgresql micro gcc metasploit openssh 
 
-go --vesion
-python --vesion
-cython --vesion
-rust --vesion
-postgresql --vesion
-micro --vesion
-gcc --vesion
-metasploit --vesion
-
 echo "Successful"
 
 echo "==================================================="
@@ -67,17 +51,9 @@ echo "==================================================="
 
 yay -S cava peaclock btop cmatrix swww 
 
-cava --vesion
-peaclock --vesion
-btop --vesion
-cmatrix --vesion 
-swww --vesion
-
 echo "==================================================="
 echo "           install hyprcomponent                   "
 echo "==================================================="
 
 sudo pacman -S hyprpaper
 yay -S hyprlock-git
-
-
